@@ -51,6 +51,9 @@ print(bulb.temperature)
 i=1
 
 while (True):
+    if i == 2:
+        print("Doing it again")
+        bulb = init_bulb()
     c = get_dot_color()
     bulb.set_rgb(c[0], c[1], c[2])
     time.sleep(60)
