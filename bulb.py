@@ -44,6 +44,7 @@ bulb = init_bulb()
 bulb.set_temperature(100)
 
 while (True):
+    bulb = init_bulb()
     c = get_dot_color()
     bulb.set_rgb(c[0], c[1], c[2])
     time.sleep(60)
