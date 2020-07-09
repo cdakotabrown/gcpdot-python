@@ -41,7 +41,7 @@ def init_bulb():
 print("Bulb control running")
 
 bulb = init_bulb()
-bulb.set_temperature(100)
+bulb.set_temperature(1)
 
 while (True):
     bulb = init_bulb()
