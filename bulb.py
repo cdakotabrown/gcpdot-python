@@ -42,15 +42,18 @@ print("Bulb control running")
 
 bulb = init_bulb()
 # bulb.set_temperature(1)
-bulb.set_brightness(1)
+# bulb.set_brightness(1)
 print(bulb.name)
 print(bulb.id)
 print(bulb.type)
 print(bulb.brightness)
 print(bulb.temperature)
+i=1
 
 while (True):
     c = get_dot_color()
     bulb.set_rgb(c[0], c[1], c[2])
     time.sleep(60)
+    print(i)
+    i++
 
