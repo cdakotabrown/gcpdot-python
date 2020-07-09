@@ -41,7 +41,7 @@ def init_bulb():
 print("Bulb control running")
 
 bulb = init_bulb()
-bulb.set_temperature(1)
+bulb.set_brightness(1)
 print(bulb.name)
 print(bulb.id)
 print(bulb.type)
