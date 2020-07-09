@@ -55,5 +55,5 @@ while (True):
     bulb.set_rgb(c[0], c[1], c[2])
     time.sleep(60)
     print(i)
-    i++
+    i += 1
 
